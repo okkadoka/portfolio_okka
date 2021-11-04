@@ -1,0 +1,188 @@
+body {
+	font-family: 'Roboto Slab', serif;
+	padding: 0;
+	margin: 0;
+	color: black;
+}
+
+/* bagian header */
+header{
+	border: 1px solid;
+	height: 85px;
+	width: 100%;
+	background-color: #6ba9fa
+}
+header h1 {
+	display: inline-block;
+	float: left;
+	padding: 0px 25px;
+}
+header h1 a:hover{
+	color :#19fff4;
+}
+header h1 a{
+	transition: 4s;
+}
+header ul {
+	float: right;
+}
+header ul li {
+	display: inline-block;
+	padding: 20px;
+}
+a {
+	text-decoration: none;
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+}
+.container::after{
+   content: '';
+   display:block;
+   clear: both;
+}
+.meru-sidebar{
+   float:righ;
+   display:nome;
+   padding; 15px;
+}
+@media (max-width: 768px){
+	menu-sidebar{
+		display: block;
+	}
+head ul{
+	display: nome;
+}
+.col-4{
+	widows: 50%;
+}
+.col-3{
+	width: 50%;
+	}
+/*bagian sider */
+.sidebar {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	width:  300px;
+	background-color: rgba(230, 230, 50, .8); 
+	transition: .3s;
+	z-index: 9999;
+}
+.sidebar ul li a{
+	color: #fff;
+}
+.sidebar ul li {5
+	padding: 25px;
+	transition: .3s;
+	transition-porperty: background-color; 
+}
+.sidebar ul li :hover{
+	background-color: #6ba9fa
+}
+#bar:checked ~ .sidebar {
+	left: 0;
+}
+/*bagian banner */
+.banner {
+	background :linear-gradient(to top,#6ba9fa 0%#fff 120%);
+	padding: 150%px 0;
+}
+.banner img {
+	width: 150px;
+	border-radius: 50%;
+	margin-bottom:  10px;
+	box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2)0 6px 20px 0 rgba(0,0,0,0.20)
+
+}
+.b-center {
+	text-align: center;
+
+}
+.banner h2,
+.banner p,
+.banner span {
+	color: #fff
+}
+.banner h2 {
+	margin-bottom: 10px;
+
+}
+.banner p{
+	font-size: 18px
+}
+section h3{
+	padding-bottom: 20px;
+	text-align: center;
+	margin: 20px
+	possitionP: relative;
+}
+section h3:before {
+	content: '';
+	display: 
+	position: absolute;
+	bottom: 0;
+	width:120px;
+	height:1px;
+	background-color: #fff;
+	left: calc(50% - 60px);
+}
+	section h3::after {
+	content:'';
+	display: block;
+	position: absolute;
+	bottom: -1px;
+	width:40px;
+	height:4px;
+	background-color: #6ba9fa;
+	left: calc(50% - 20px);
+}
+/* bagian about */
+#about p {
+	text-align: center;
+	text-indent: 30px;
+	line-height: 25px;
+	margin-bottom: 15px;
+}
+
+/*bagian skilla */
+#skills{
+	background-color: #6ba9fa;
+}
+#skills .1-skill{
+	height: 30px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	margin: 5px 0 20px 0;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.l-skills {
+	border-radius: 40px;
+}
+.l-skills .nilai {
+	height: 30px;
+	background-color: #6ba9fa;
+	display: inline-block;
+	color: #fff;
+	text-align: center;
+	width: 10%;
+	transition: width 2s;
+	border-radius: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
